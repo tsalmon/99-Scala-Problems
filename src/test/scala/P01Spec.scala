@@ -6,7 +6,7 @@ class P01Spec extends FlatSpec {
 
 	"last" should "return the head of 5xint list " in {
     	val myList = List(12, 24, 36, 48, 50)
-		assert(P01.last(myList) == 50)
+			assert(P01.last(myList) == 50)
   	}
 
 	"last" should "return the head of empty list " in {
@@ -20,4 +20,3 @@ class P01Spec extends FlatSpec {
   	}
 
 }
-
